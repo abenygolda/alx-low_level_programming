@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+/*this is a comment section for the math.h file that we have already written in this .h file*/
 
 char _putchar(char c);
 int _isupper(int c);
