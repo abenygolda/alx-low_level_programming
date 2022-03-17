@@ -1,19 +1,21 @@
-/**
- *file: 0_isupper.c 
- * Author: ABENEZER GOLDA
+/*
+ * File: 0-isupper.c
+ * Auth: Abenezer Golda
  */
-#include "math.h"
+
+#include "main.h"
+
 /**
- * main - checks whether the input is upper case or lower case.
+ * _isupper - Checks for uppercase characters.
+ * @c: The character to be checked.
  *
- * It returns one if it's upper case and returns 0 if it's lower case character. 
- * Author: ABENEZER GOLDA
+ * Return: 1 if character is uppercase, 0 otherwise.
  */
 int _isupper(int c)
 {
+	if (c >= 'A' && c <= 'Z')
+		return (1);
 
-if (c >='A' && c <='Z')
-	return (1);
-else 	
-	return (0);
+	else
+		return (0);
 }

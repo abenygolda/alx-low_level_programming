@@ -3,7 +3,7 @@
  * Auth: Abenezer Golda
  */
 
-#include "math.h"
+#include "main.h"
 
 /**
  * print_triangle - Prints a triangle, using the character #.
@@ -32,3 +32,4 @@ void print_triangle(int size)
 
 	_putchar('\n');
 }
+
