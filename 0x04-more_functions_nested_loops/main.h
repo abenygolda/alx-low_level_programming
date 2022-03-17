@@ -1,3 +1,4 @@
+/*this is th header file that includes the prototypes*/
 #ifndef MAIN_H
 #define MAIN_H
 /*this is a comment section for the math.h file that we have already written in this .h file*/
