@@ -3,7 +3,7 @@
  * Auth: Abenezer Golda
  */
 
-#include "holberton.h"
+#include "math.h"
 
 /**
  * print_triangle - Prints a triangle, using the character #.
