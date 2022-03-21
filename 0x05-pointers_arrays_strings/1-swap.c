@@ -6,11 +6,12 @@
  * Return: Always 0.
  */
  void swap_int(int *a, int *b){
- int n;
  
- *a = n;
- n = *b;
- *b = *a;
+ 	int n;
+ 	
+	  n = *a;
+	 *a = *b;
+	 *b = n;
  
  
  }
