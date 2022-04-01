@@ -1,12 +1,15 @@
-/*this is about the argc ana argv
- *I am abenezer Golda 
-*/
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
 
-int main (int argc, char* argv[])//this is a main function that it takes arguments.
+/**
+ * main - function
+ * @argc: offset count
+ * @argv: offset value
+ * Return: 0
+ */
+
+
+int main(int argc, char *argv[])
 {
-	int i;
-	printf("argv[%d]=%s\n",i, argv[i]);
-return 0;
+	printf("%s\n", argv[argc - 1]);
+	return (0);
 }

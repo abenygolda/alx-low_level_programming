@@ -1,11 +1,14 @@
-/*this is about the argc ana argv
- *I am abenezer Golda 
-*/
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
 
-int main (int argc, char* argv[])//this is a main function that it takes arguments.
-{	
-printf("the number of arguments is %d\n",argc);	
-return 0;
+/**
+ * main - prints its name, followed by a new line
+ * @argc: n args
+ * @argv: arr args
+ * Return: 0
+ */
+int main(int argc, char *argv[] __attribute__((unused)))
+{
+	if (argc > 0)
+		printf("%d\n", argc - 1);
+	return (0);
 }
